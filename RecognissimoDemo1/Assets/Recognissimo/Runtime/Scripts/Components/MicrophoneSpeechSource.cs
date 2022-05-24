@@ -9,7 +9,7 @@ namespace Recognissimo.Components
     ///     Sets up an microphone as speech source for the <see cref="SpeechRecognizer"/>
     /// </summary>
     [AddComponentMenu("Recognissimo/Speech Sources/Microphone Speech Source")]
-    public class MicrophoneSpeechSource : SpeechSource
+    public class    MicrophoneSpeechSource : SpeechSource
     {
         private MicrophoneRecorder _microphoneRecorder;
 
